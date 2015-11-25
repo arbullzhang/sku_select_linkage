@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA338C111C059E6400124DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C101C059E6400124DEB /* main.m */; };
+		EA338C141C059E6400124DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C131C059E6400124DEB /* AppDelegate.m */; };
+		EA338C171C059E6400124DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C161C059E6400124DEB /* ViewController.m */; };
+		EA338C1A1C059E6400124DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA338C181C059E6400124DEB /* Main.storyboard */; };
+		EA338C1C1C059E6400124DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA338C1B1C059E6400124DEB /* Assets.xcassets */; };
+		EA338C1F1C059E6400124DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA338C1D1C059E6400124DEB /* LaunchScreen.storyboard */; };
+		EA338C2D1C059F4700124DEB /* QRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C281C059F4700124DEB /* QRadioButton.m */; };
+		EA338C2E1C059F4700124DEB /* radio_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = EA338C291C059F4700124DEB /* radio_checked.png */; };
+		EA338C2F1C059F4700124DEB /* radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA338C2A1C059F4700124DEB /* radio_checked@2x.png */; };
+		EA338C301C059F4700124DEB /* radio_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = EA338C2B1C059F4700124DEB /* radio_unchecked.png */; };
+		EA338C311C059F4700124DEB /* radio_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA338C2C1C059F4700124DEB /* radio_unchecked@2x.png */; };
+		EA338C341C059F4F00124DEB /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C331C059F4F00124DEB /* QViewController.m */; };
+		EA338C371C05A02200124DEB /* SSLSkuListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C361C05A02200124DEB /* SSLSkuListModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA338C0C1C059E6400124DEB /* SKUSelectLinkageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKUSelectLinkageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA338C101C059E6400124DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA338C121C059E6400124DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA338C131C059E6400124DEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA338C151C059E6400124DEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA338C161C059E6400124DEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA338C191C059E6400124DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA338C1B1C059E6400124DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA338C1E1C059E6400124DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA338C201C059E6400124DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA338C271C059F4700124DEB /* QRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioButton.h; sourceTree = "<group>"; };
+		EA338C281C059F4700124DEB /* QRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioButton.m; sourceTree = "<group>"; };
+		EA338C291C059F4700124DEB /* radio_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked.png; sourceTree = "<group>"; };
+		EA338C2A1C059F4700124DEB /* radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_checked@2x.png"; sourceTree = "<group>"; };
+		EA338C2B1C059F4700124DEB /* radio_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unchecked.png; sourceTree = "<group>"; };
+		EA338C2C1C059F4700124DEB /* radio_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_unchecked@2x.png"; sourceTree = "<group>"; };
+		EA338C321C059F4F00124DEB /* QViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QViewController.h; sourceTree = "<group>"; };
+		EA338C331C059F4F00124DEB /* QViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
+		EA338C351C05A02200124DEB /* SSLSkuListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLSkuListModel.h; sourceTree = "<group>"; };
+		EA338C361C05A02200124DEB /* SSLSkuListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLSkuListModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA338C091C059E6400124DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA338C031C059E6400124DEB = {
+			isa = PBXGroup;
+			children = (
+				EA338C0E1C059E6400124DEB /* SKUSelectLinkageDemo */,
+				EA338C0D1C059E6400124DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA338C0D1C059E6400124DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA338C0C1C059E6400124DEB /* SKUSelectLinkageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA338C0E1C059E6400124DEB /* SKUSelectLinkageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA338C261C059F4700124DEB /* QRadioButton */,
+				EA338C121C059E6400124DEB /* AppDelegate.h */,
+				EA338C131C059E6400124DEB /* AppDelegate.m */,
+				EA338C151C059E6400124DEB /* ViewController.h */,
+				EA338C161C059E6400124DEB /* ViewController.m */,
+				EA338C181C059E6400124DEB /* Main.storyboard */,
+				EA338C321C059F4F00124DEB /* QViewController.h */,
+				EA338C331C059F4F00124DEB /* QViewController.m */,
+				EA338C351C05A02200124DEB /* SSLSkuListModel.h */,
+				EA338C361C05A02200124DEB /* SSLSkuListModel.m */,
+				EA338C1B1C059E6400124DEB /* Assets.xcassets */,
+				EA338C1D1C059E6400124DEB /* LaunchScreen.storyboard */,
+				EA338C201C059E6400124DEB /* Info.plist */,
+				EA338C0F1C059E6400124DEB /* Supporting Files */,
+			);
+			path = SKUSelectLinkageDemo;
+			sourceTree = "<group>";
+		};
+		EA338C0F1C059E6400124DEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA338C101C059E6400124DEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA338C261C059F4700124DEB /* QRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				EA338C271C059F4700124DEB /* QRadioButton.h */,
+				EA338C281C059F4700124DEB /* QRadioButton.m */,
+				EA338C291C059F4700124DEB /* radio_checked.png */,
+				EA338C2A1C059F4700124DEB /* radio_checked@2x.png */,
+				EA338C2B1C059F4700124DEB /* radio_unchecked.png */,
+				EA338C2C1C059F4700124DEB /* radio_unchecked@2x.png */,
+			);
+			path = QRadioButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA338C0B1C059E6400124DEB /* SKUSelectLinkageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA338C231C059E6400124DEB /* Build configuration list for PBXNativeTarget "SKUSelectLinkageDemo" */;
+			buildPhases = (
+				EA338C081C059E6400124DEB /* Sources */,
+				EA338C091C059E6400124DEB /* Frameworks */,
+				EA338C0A1C059E6400124DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKUSelectLinkageDemo;
+			productName = SKUSelectLinkageDemo;
+			productReference = EA338C0C1C059E6400124DEB /* SKUSelectLinkageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA338C041C059E6400124DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = arbullzhang;
+				TargetAttributes = {
+					EA338C0B1C059E6400124DEB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EA338C071C059E6400124DEB /* Build configuration list for PBXProject "SKUSelectLinkageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA338C031C059E6400124DEB;
+			productRefGroup = EA338C0D1C059E6400124DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA338C0B1C059E6400124DEB /* SKUSelectLinkageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA338C0A1C059E6400124DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA338C311C059F4700124DEB /* radio_unchecked@2x.png in Resources */,
+				EA338C301C059F4700124DEB /* radio_unchecked.png in Resources */,
+				EA338C2F1C059F4700124DEB /* radio_checked@2x.png in Resources */,
+				EA338C1F1C059E6400124DEB /* LaunchScreen.storyboard in Resources */,
+				EA338C2E1C059F4700124DEB /* radio_checked.png in Resources */,
+				EA338C1C1C059E6400124DEB /* Assets.xcassets in Resources */,
+				EA338C1A1C059E6400124DEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA338C081C059E6400124DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA338C371C05A02200124DEB /* SSLSkuListModel.m in Sources */,
+				EA338C171C059E6400124DEB /* ViewController.m in Sources */,
+				EA338C341C059F4F00124DEB /* QViewController.m in Sources */,
+				EA338C2D1C059F4700124DEB /* QRadioButton.m in Sources */,
+				EA338C141C059E6400124DEB /* AppDelegate.m in Sources */,
+				EA338C111C059E6400124DEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA338C181C059E6400124DEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA338C191C059E6400124DEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA338C1D1C059E6400124DEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA338C1E1C059E6400124DEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA338C211C059E6400124DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA338C221C059E6400124DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA338C241C059E6400124DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKUSelectLinkageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arbullzhang.SKUSelectLinkageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA338C251C059E6400124DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKUSelectLinkageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arbullzhang.SKUSelectLinkageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA338C071C059E6400124DEB /* Build configuration list for PBXProject "SKUSelectLinkageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA338C211C059E6400124DEB /* Debug */,
+				EA338C221C059E6400124DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA338C231C059E6400124DEB /* Build configuration list for PBXNativeTarget "SKUSelectLinkageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA338C241C059E6400124DEB /* Debug */,
+				EA338C251C059E6400124DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA338C041C059E6400124DEB /* Project object */;
+}
