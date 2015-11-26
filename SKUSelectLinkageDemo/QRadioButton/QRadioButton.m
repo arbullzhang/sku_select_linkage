@@ -19,27 +19,31 @@ static NSMutableDictionary *_groupRadioDic = nil;
 @synthesize delegate = _delegate;
 @synthesize checked  = _checked;
 
-- (id)initWithDelegate:(id)delegate groupId:(NSString*)groupId {
-    self = [super init];
-    if (self) {
-        _delegate = delegate;
-        _groupId = [groupId copy];
-        
-        [self addToGroup];
-        
-        self.exclusiveTouch = YES;
-        
-        [self setImage:[UIImage imageNamed:@"radio_unchecked.png"] forState:UIControlStateNormal];
-        [self setImage:[UIImage imageNamed:@"radio_checked.png"] forState:UIControlStateSelected];
-        [self addTarget:self action:@selector(radioBtnChecked) forControlEvents:UIControlEventTouchUpInside];
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if(self)
+    {
+        [self awakeFromNib];
     }
     return self;
 }
 
-- (void)addToGroup {
+- (void)awakeFromNib
+{
+    self.exclusiveTouch = YES;
+    
+    [self setImage:[UIImage imageNamed:@"radio_unchecked.png"] forState:UIControlStateNormal];
+    [self setImage:[UIImage imageNamed:@"radio_checked.png"] forState:UIControlStateSelected];
+    [self addTarget:self action:@selector(radioBtnChecked) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)addToGroup:(NSString *)groupId {
     if(!_groupRadioDic){
         _groupRadioDic = [NSMutableDictionary dictionary];
     }
+    
+    _groupId = groupId;
     
     NSMutableArray *_gRadios = [_groupRadioDic objectForKey:_groupId];
     if (!_gRadios) {
@@ -94,6 +98,10 @@ static NSMutableDictionary *_groupRadioDic = nil;
         return;
     }
     
+    [self radioBtnCheckedCore];
+}
+
+- (void)radioBtnCheckedCore{
     self.selected = !self.selected;
     _checked = self.selected;
     
@@ -121,6 +129,9 @@ static NSMutableDictionary *_groupRadioDic = nil;
 
 - (void)dealloc {
     [self removeFromGroup];
+    
+    _delegate = nil;
+    _groupId = nil;
 }
 
 

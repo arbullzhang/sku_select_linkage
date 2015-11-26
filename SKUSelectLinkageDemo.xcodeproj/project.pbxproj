@@ -18,8 +18,11 @@
 		EA338C2F1C059F4700124DEB /* radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA338C2A1C059F4700124DEB /* radio_checked@2x.png */; };
 		EA338C301C059F4700124DEB /* radio_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = EA338C2B1C059F4700124DEB /* radio_unchecked.png */; };
 		EA338C311C059F4700124DEB /* radio_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA338C2C1C059F4700124DEB /* radio_unchecked@2x.png */; };
-		EA338C341C059F4F00124DEB /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C331C059F4F00124DEB /* QViewController.m */; };
 		EA338C371C05A02200124DEB /* SSLSkuListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C361C05A02200124DEB /* SSLSkuListModel.m */; };
+		EA338C411C06AC4600124DEB /* SSLSelectSKUView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C391C06AC4600124DEB /* SSLSelectSKUView.m */; };
+		EA338C421C06AC4600124DEB /* SSLSelectSKUView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA338C3A1C06AC4600124DEB /* SSLSelectSKUView.xib */; };
+		EA338C431C06AC4600124DEB /* SSLSKUButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C3C1C06AC4600124DEB /* SSLSKUButton.m */; };
+		EA338C441C06AC4600124DEB /* SSLSKUCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA338C3E1C06AC4600124DEB /* SSLSKUCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,10 +42,15 @@
 		EA338C2A1C059F4700124DEB /* radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_checked@2x.png"; sourceTree = "<group>"; };
 		EA338C2B1C059F4700124DEB /* radio_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unchecked.png; sourceTree = "<group>"; };
 		EA338C2C1C059F4700124DEB /* radio_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_unchecked@2x.png"; sourceTree = "<group>"; };
-		EA338C321C059F4F00124DEB /* QViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QViewController.h; sourceTree = "<group>"; };
-		EA338C331C059F4F00124DEB /* QViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
 		EA338C351C05A02200124DEB /* SSLSkuListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLSkuListModel.h; sourceTree = "<group>"; };
 		EA338C361C05A02200124DEB /* SSLSkuListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLSkuListModel.m; sourceTree = "<group>"; };
+		EA338C381C06AC4600124DEB /* SSLSelectSKUView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLSelectSKUView.h; sourceTree = "<group>"; };
+		EA338C391C06AC4600124DEB /* SSLSelectSKUView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLSelectSKUView.m; sourceTree = "<group>"; };
+		EA338C3A1C06AC4600124DEB /* SSLSelectSKUView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSLSelectSKUView.xib; sourceTree = "<group>"; };
+		EA338C3B1C06AC4600124DEB /* SSLSKUButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLSKUButton.h; sourceTree = "<group>"; };
+		EA338C3C1C06AC4600124DEB /* SSLSKUButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLSKUButton.m; sourceTree = "<group>"; };
+		EA338C3D1C06AC4600124DEB /* SSLSKUCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLSKUCell.h; sourceTree = "<group>"; };
+		EA338C3E1C06AC4600124DEB /* SSLSKUCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLSKUCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +88,16 @@
 				EA338C131C059E6400124DEB /* AppDelegate.m */,
 				EA338C151C059E6400124DEB /* ViewController.h */,
 				EA338C161C059E6400124DEB /* ViewController.m */,
-				EA338C181C059E6400124DEB /* Main.storyboard */,
-				EA338C321C059F4F00124DEB /* QViewController.h */,
-				EA338C331C059F4F00124DEB /* QViewController.m */,
+				EA338C381C06AC4600124DEB /* SSLSelectSKUView.h */,
+				EA338C391C06AC4600124DEB /* SSLSelectSKUView.m */,
+				EA338C3A1C06AC4600124DEB /* SSLSelectSKUView.xib */,
 				EA338C351C05A02200124DEB /* SSLSkuListModel.h */,
+				EA338C3B1C06AC4600124DEB /* SSLSKUButton.h */,
+				EA338C3C1C06AC4600124DEB /* SSLSKUButton.m */,
+				EA338C3D1C06AC4600124DEB /* SSLSKUCell.h */,
+				EA338C3E1C06AC4600124DEB /* SSLSKUCell.m */,
 				EA338C361C05A02200124DEB /* SSLSkuListModel.m */,
+				EA338C181C059E6400124DEB /* Main.storyboard */,
 				EA338C1B1C059E6400124DEB /* Assets.xcassets */,
 				EA338C1D1C059E6400124DEB /* LaunchScreen.storyboard */,
 				EA338C201C059E6400124DEB /* Info.plist */,
@@ -178,6 +191,7 @@
 				EA338C2E1C059F4700124DEB /* radio_checked.png in Resources */,
 				EA338C1C1C059E6400124DEB /* Assets.xcassets in Resources */,
 				EA338C1A1C059E6400124DEB /* Main.storyboard in Resources */,
+				EA338C421C06AC4600124DEB /* SSLSelectSKUView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,9 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA338C411C06AC4600124DEB /* SSLSelectSKUView.m in Sources */,
 				EA338C371C05A02200124DEB /* SSLSkuListModel.m in Sources */,
+				EA338C441C06AC4600124DEB /* SSLSKUCell.m in Sources */,
 				EA338C171C059E6400124DEB /* ViewController.m in Sources */,
-				EA338C341C059F4F00124DEB /* QViewController.m in Sources */,
+				EA338C431C06AC4600124DEB /* SSLSKUButton.m in Sources */,
 				EA338C2D1C059F4700124DEB /* QRadioButton.m in Sources */,
 				EA338C141C059E6400124DEB /* AppDelegate.m in Sources */,
 				EA338C111C059E6400124DEB /* main.m in Sources */,
@@ -340,6 +356,7 @@
 				EA338C251C059E6400124DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,7 +2,7 @@
 //  ViewController.h
 //  SKUSelectLinkageDemo
 //
-//  Created by zhuge.zzy on 11/25/15.
+//  Created by arbullzhang on 11/25/15.
 //  Copyright © 2015 arbullzhang. All rights reserved.
 //
 
